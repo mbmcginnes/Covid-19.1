@@ -3,6 +3,7 @@
 Created on Mon Apr 13 11:05:39 2020
 
 @author: mmcginnes
+May 30 Branch
 """
 
 import pandas as pd
@@ -39,13 +40,6 @@ for row in range(0,len(df)):
 #    print (newcases)       
 df['new deaths'] = newdeaths
 #print(df.describe())
-
-
-
-
-
-
-
 
 #print (df.head)
 df.to_csv('C:/Users/mmcginnes/Documents/Temp/NYTCovid19.csv', index=False)

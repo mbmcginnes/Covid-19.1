@@ -42,9 +42,10 @@ df['new deaths'] = newdeaths
 #print(df.describe())
 
 #print (df.head)
-df.to_csv('C:/Users/mmcginnes/Documents/Temp/NYTCovid19.csv', index=False)
+df.to_csv('C:/Users/mmcginnes/Documents/GitHub/Covid-19.1/NYTCovid19.csv', index=False)
 print(df.tail())
 print(date.today())
 
 #for row in range(len(df2)):
 #    print (df2.iloc[row],['New cases'])
+#C:\Users\mmcginnes\Documents\GitHub\Covid-19.1

@@ -9,7 +9,7 @@ Created on Mon Apr 13 11:05:39 2020
 import pandas as pd
 from datetime import date 
 
-states = ['Virginia','Maryland','District of Columbia']
+states = ('Virginia','Maryland','District of Columbia','Florida')
 df=pd.read_csv('https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv')
 print(df.head())
 df = df[df['state'].isin(states)]

@@ -45,7 +45,9 @@ df['new deaths'] = newdeaths
 df.to_csv('C:/Users/mmcginnes/Documents/GitHub/Covid-19.1/NYTCovid19.csv', index=False)
 print(df.tail())
 print(date.today())
+print (df.date.max())
 
 #for row in range(len(df2)):
 #    print (df2.iloc[row],['New cases'])
 #C:\Users\mmcginnes\Documents\GitHub\Covid-19.1
+

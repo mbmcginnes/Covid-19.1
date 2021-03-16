@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
 Created on Mon Apr 13 11:05:39 2020
@@ -5,9 +6,11 @@ Created on Mon Apr 13 11:05:39 2020
 @author: mmcginnes
 1AM Main Branch
 """
+# %%
 
 import pandas as pd
 from datetime import date 
+# %%
 
 states = ('Virginia','Maryland','District of Columbia','Florida')
 df=pd.read_csv('https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv')
